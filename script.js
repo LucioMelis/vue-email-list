@@ -21,7 +21,7 @@ const app = new Vue({
                 const result = response.data;
                 // console.log(result, result.response);
                 this.email = result.response;
-                console.log(this.email);
+                // console.log(this.email);
                 this.arrayEmail.push(this.email)
             });
         }
