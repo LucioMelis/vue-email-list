@@ -30,11 +30,13 @@
             <div class="col-12 text-center">
                 <h1>Lista Email Random</h1>
             </div>
-
+            <!-- Blocco email  -->
             <div class="col-5">
                 <ul v-if='arrayEmail.length === 10' class="list-group">
                     <li v-for="element in arrayEmail"
-                        class="list-group-item list-group-item-action list-group-item-info">{{element}}</li>
+                        class="list-group-item list-group-item-action list-group-item-info">
+                        {{element}}
+                    </li>
                 </ul>
             </div>
 
