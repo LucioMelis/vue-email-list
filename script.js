@@ -25,8 +25,6 @@ const app = new Vue({
                 this.arrayEmail.push(this.email)
             });
         }
-
         // console.log(this.arrayEmail);
-
     }
 })
